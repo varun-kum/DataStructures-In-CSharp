@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace DataStructures_In_CSharp.Algos.Trees
 {
+    /// <summary>
+    /// Create a Minimal Binary Search Tree from and a Sorted Array.
+    /// </summary>
     public class Create_Minimal_BinarySearchTree_From_SortedArray
     {
         public Node<int> CreateMinimalBST(int[] array)

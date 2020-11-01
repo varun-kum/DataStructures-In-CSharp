@@ -12,7 +12,6 @@ namespace DataStructures_In_CSharp.Trees
         public Node<T> Left;
         public Node<T> Right;
 
-
         public Node(T name)
         {
             Name = name;

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures-In-CSharpTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures-In-CSharp.Algos", "DataStructures-In-CSharp.Algos\DataStructures-In-CSharp.Algos.csproj", "{6701C61A-D0F4-4790-A526-5E96E529FF5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures-In-CSharp.Console", "DataStructures-In-CSharp.Console\DataStructures-In-CSharp.Console.csproj", "{1C9CB3E0-5B9C-4762-8376-F033DE68CEEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6701C61A-D0F4-4790-A526-5E96E529FF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6701C61A-D0F4-4790-A526-5E96E529FF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6701C61A-D0F4-4790-A526-5E96E529FF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C9CB3E0-5B9C-4762-8376-F033DE68CEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9CB3E0-5B9C-4762-8376-F033DE68CEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9CB3E0-5B9C-4762-8376-F033DE68CEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9CB3E0-5B9C-4762-8376-F033DE68CEEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
