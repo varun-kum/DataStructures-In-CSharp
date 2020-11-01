@@ -1,0 +1,10 @@
+D:\Varun\GITHUB\DataStructures-In-CSharp\DataStructures-In-CSharp\DataStructures-In-CSharp.Algos\bin\Debug\DataStructures-In-CSharp.Algos.dll
+D:\Varun\GITHUB\DataStructures-In-CSharp\DataStructures-In-CSharp\DataStructures-In-CSharp.Algos\bin\Debug\DataStructures-In-CSharp.Algos.pdb
+D:\Varun\GITHUB\DataStructures-In-CSharp\DataStructures-In-CSharp\DataStructures-In-CSharp.Algos\bin\Debug\DataStructures-In-CSharp.exe
+D:\Varun\GITHUB\DataStructures-In-CSharp\DataStructures-In-CSharp\DataStructures-In-CSharp.Algos\bin\Debug\DataStructures-In-CSharp.pdb
+D:\Varun\GITHUB\DataStructures-In-CSharp\DataStructures-In-CSharp\DataStructures-In-CSharp.Algos\bin\Debug\DataStructures-In-CSharp.exe.config
+D:\Varun\GITHUB\DataStructures-In-CSharp\DataStructures-In-CSharp\DataStructures-In-CSharp.Algos\obj\Debug\DataStructures-In-CSharp.Algos.csprojAssemblyReference.cache
+D:\Varun\GITHUB\DataStructures-In-CSharp\DataStructures-In-CSharp\DataStructures-In-CSharp.Algos\obj\Debug\DataStructures-In-CSharp.Algos.csproj.CoreCompileInputs.cache
+D:\Varun\GITHUB\DataStructures-In-CSharp\DataStructures-In-CSharp\DataStructures-In-CSharp.Algos\obj\Debug\DataStructures-In-CSharp.Algos.csproj.CopyComplete
+D:\Varun\GITHUB\DataStructures-In-CSharp\DataStructures-In-CSharp\DataStructures-In-CSharp.Algos\obj\Debug\DataStructures-In-CSharp.Algos.dll
+D:\Varun\GITHUB\DataStructures-In-CSharp\DataStructures-In-CSharp\DataStructures-In-CSharp.Algos\obj\Debug\DataStructures-In-CSharp.Algos.pdb
