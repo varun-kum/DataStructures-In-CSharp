@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 namespace DataStructures_In_CSharp.Algos.Sorting
 {
     /// <summary>
-    /// Linear Type as make assumptions on data length
-    /// Not a Stable Algo
+    ///  Linear Type as make assumptions on data length
+    ///  Not a Stable Algo
     ///  Should not be used if the Range is much bigger then the Size of Array
     ///  Complexity: Ω(n+k)	| Θ(n+k) | O(n+k)
     ///  Space Complexity: O(k)
