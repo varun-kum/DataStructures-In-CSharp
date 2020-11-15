@@ -13,10 +13,15 @@ namespace DataStructures_In_CSharp.Console
     {
         static void Main(string[] args)
         {
-            int[] arr = { 20, 35, -15, 7, -22, 30, 11, 100, -1000 };
+            //int[] arr = { 20, 35, -15, 7, -22, 30, 11, 100, -1000 };
 
-            MergeSort sort = new MergeSort();
-            int[] sortedarray = sort.Sort(arr);
+            //MergeSort sort = new MergeSort();
+            //int[] sortedarray = sort.Sort(arr);
+
+            int[] arr = { 20, 35, 15, 7, 22, 30, 11 };
+
+            CountingSort sort = new CountingSort();
+            int[] sortedarray = sort.Sort(arr, 7, 35);
 
             //CreateLinkedListBFS();
         }

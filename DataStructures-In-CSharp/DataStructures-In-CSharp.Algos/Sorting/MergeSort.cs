@@ -6,14 +6,31 @@ using System.Threading.Tasks;
 
 namespace DataStructures_In_CSharp.Algos.Sorting
 {
+    /// <summary>
+    /// Divide and Conquer Algo (Recursive)
+    /// Split and Merge Phases - Logical
+    /// Time Complexity: Ω(n log(n)) | Θ(n log(n)) | O(n log(n))	
+    /// Space Complexity: O(n)
+    /// </summary>
     public class MergeSort
     {
+        /// <summary>
+        /// Public Method to call Merge Sort.
+        /// </summary>
+        /// <param name="arr">Input Integer Array</param>
+        /// <returns></returns>
         public int[] Sort(int[] arr)
         {
             MergeSortArray(arr, 0, arr.Length);
             return arr;
         }
 
+        /// <summary>
+        /// Method to perform Merge Sort
+        /// </summary>
+        /// <param name="arr">Input Integer Array</param>
+        /// <param name="start">Start Index</param>
+        /// <param name="end">End Index</param>
         void MergeSortArray(int[] arr, int start, int end)
         {
             if (end - start < 2)
@@ -23,6 +40,8 @@ namespace DataStructures_In_CSharp.Algos.Sorting
 
             MergeSortArray(arr, start, mid);
             MergeSortArray(arr, mid, end);
+
+            //Merging the Splits.
             Merge(arr, start, mid, end);
         }
 
