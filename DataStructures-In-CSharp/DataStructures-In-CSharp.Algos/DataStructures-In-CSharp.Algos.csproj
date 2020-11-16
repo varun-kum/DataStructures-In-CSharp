@@ -48,6 +48,7 @@
     <Compile Include="Sorting\CountingSort.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="Sorting\MergeSort.cs" />
+    <Compile Include="Sorting\RadixSort.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="Trees\Create-BinarySearchTree-From-SortedArray.cs" />
     <Compile Include="Trees\Create-LinkedList-Of-AdjacentNodes-BinaryTree-DFS.cs" />

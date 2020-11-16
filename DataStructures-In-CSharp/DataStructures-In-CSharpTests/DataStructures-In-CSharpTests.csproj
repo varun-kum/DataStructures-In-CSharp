@@ -56,12 +56,14 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="Graphs\Problem_EvaluateDivision_UsingGraphs.cs" />
     <Compile Include="Graphs\DirectedGraph_Find_RouteTests.cs" />
     <Compile Include="Mock\Graphs.cs" />
     <Compile Include="Mock\Trees.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Trees\Create_LinkedList_Of_AdjacentNodes_BinaryTreeTests.cs" />
     <Compile Include="Trees\Create_Minimal_BinarySearchTree_From_SortedArrayTests.cs" />
+    <Compile Include="Trees\Problem_BinaryTree_Diameter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

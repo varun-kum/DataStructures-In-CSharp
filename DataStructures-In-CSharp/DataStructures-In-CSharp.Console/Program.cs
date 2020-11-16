@@ -24,8 +24,9 @@ namespace DataStructures_In_CSharp.Console
             int[] sortedarray = sort.Sort(arr, 7, 35);
 
             //CreateLinkedListBFS();
-        }
 
+        }
+        
         public static void CreateLinkedListDFS()
         {
             Tree<string> tree = DataStructures_In_CSharpTests.Mock.Trees.GetSampleTree();
