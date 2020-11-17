@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures_In_CSharpTests.Trees
+namespace DataStructures_In_CSharp.Algos.Trees
 {/*
   Compute the diameter of the tree. 
   The diameter of a binary tree is the length of the longest path between any two nodes in a tree. 

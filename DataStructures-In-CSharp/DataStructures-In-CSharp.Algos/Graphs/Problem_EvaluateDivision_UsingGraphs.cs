@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures_In_CSharpTests.Graphs
+namespace DataStructures_In_CSharp.Algos.Graphs
 {
     /*
     You are given an array of variable pairs equations and an array of real numbers values, where equations[i] = [Ai, Bi] 

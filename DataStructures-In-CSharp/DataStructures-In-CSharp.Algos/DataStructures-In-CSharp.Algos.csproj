@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Graphs\DirectedGraph-Find-Route.cs" />
+    <Compile Include="Graphs\Problem_EvaluateDivision_UsingGraphs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\Common.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="Trees\Create-BinarySearchTree-From-SortedArray.cs" />
     <Compile Include="Trees\Create-LinkedList-Of-AdjacentNodes-BinaryTree-DFS.cs" />
     <Compile Include="Trees\Create-LinkedList-Of-AdjacentNodes-BinaryTree-BFS.cs" />
+    <Compile Include="Trees\Problem_BinaryTree_Diameter.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataStructures-In-CSharp\DataStructures-In-CSharp.csproj">
