@@ -7,13 +7,14 @@ using System.Threading.Tasks;
 namespace DataStructures_In_CSharp.Algos.Arrays
 {
     /*
-      Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+     Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
 
-    Solution: Merge the two arrays and get median.
-    Not an optimum solution
-    Compelxity: Log(n+m)
+        Solution: Merge the two arrays and get median.
+                    Not an optimum solution
+        Compelxity: O(n+m)
+        Space complexity: O(1)
     */
-   public class Median_of_two_SortedArrays
+    public class Median_of_two_SortedArrays
     {
         public double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {

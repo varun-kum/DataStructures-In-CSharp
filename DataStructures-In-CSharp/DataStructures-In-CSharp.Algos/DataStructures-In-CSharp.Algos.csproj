@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays\Median-of-two-SortedArrays-BinarySearch.cs" />
+    <Compile Include="Arrays\Median-of-two-SortedArrays-BruteForce.cs" />
+    <Compile Include="Arrays\Merge-SortedArrays.cs" />
     <Compile Include="Graphs\DirectedGraph-Find-Route.cs" />
     <Compile Include="Graphs\Problem_EvaluateDivision_UsingGraphs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
