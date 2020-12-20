@@ -45,6 +45,7 @@ namespace DataStructures_In_CSharp.Algos.Arrays
                     nums[counter--] = nums2[j--];
                 else if (j < 0)
                     nums[counter--] = nums1[i--];
+
                 else if (nums1[i] > nums2[j])
                     nums[counter--] = nums1[i--];
                 else

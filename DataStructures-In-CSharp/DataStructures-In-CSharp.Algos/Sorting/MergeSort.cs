@@ -9,6 +9,7 @@ namespace DataStructures_In_CSharp.Algos.Sorting
     /// <summary>
     /// Divide and Conquer Algo (Recursive)
     /// Split and Merge Phases - Logical
+    /// Stable Algorithm
     /// Time Complexity: Ω(n log(n)) | Θ(n log(n)) | O(n log(n))	
     /// Space Complexity: O(n)
     /// </summary>

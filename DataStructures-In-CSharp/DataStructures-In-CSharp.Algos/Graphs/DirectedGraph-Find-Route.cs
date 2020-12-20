@@ -9,6 +9,13 @@ namespace DataStructures_In_CSharp.Algos.Graphs
 {
     public class DirectedGraph_Find_Route
     {
+        /// <summary>
+        /// Method to identify if exists a route between two nodes of a graph.
+        /// </summary>
+        /// <param name="graph"></param>
+        /// <param name="start"></param>
+        /// <param name="end"></param>
+        /// <returns></returns>
         public bool Search(Graph graph, Node start, Node end)
         {
             if (start == end)

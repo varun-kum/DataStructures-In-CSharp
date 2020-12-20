@@ -46,12 +46,14 @@
     <Compile Include="Arrays\Merge-SortedArrays.cs" />
     <Compile Include="Graphs\DirectedGraph-Find-Route.cs" />
     <Compile Include="Graphs\Problem_EvaluateDivision_UsingGraphs.cs" />
+    <Compile Include="Linked-List\Reverse-LinkedList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\Common.cs" />
     <Compile Include="Sorting\CountingSort.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="Sorting\MergeSort.cs" />
+    <Compile Include="Sorting\QuickSort.cs" />
     <Compile Include="Sorting\RadixSort.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="Trees\Create-BinarySearchTree-From-SortedArray.cs" />

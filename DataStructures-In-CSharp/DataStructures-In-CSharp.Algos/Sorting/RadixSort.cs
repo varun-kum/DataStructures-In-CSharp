@@ -48,7 +48,7 @@ namespace DataStructures_In_CSharp.Algos.Sorting
         /// <summary>
         /// Method to perform radix sort for each postion
         /// </summary>
-        /// <param name="arr">Input Integer Array</param>
+        /// <param name="arr">Input Integer Array - {2345, 3442,4535, 3534, 2323, 3455}</param>
         /// <param name="position">Postion of the digit in the integer</param>
         /// <param name="radix">Radix of the Integer</param>
         void RadixSingleSortArray(int[] arr, int position, int radix)
@@ -61,12 +61,14 @@ namespace DataStructures_In_CSharp.Algos.Sorting
             {
                 countArray[GetDigit(position, value, radix)]++;
             }
+            //countArray = {0,0,1,1,1,3,0,0,0,0}
 
             //Adjust the CountArray to sumup values at each level. (To Stablize).
             for (int j = 1; j < radix; j++)
             {
                 countArray[j] += countArray[j - 1];
             }
+            //countArray = {0,0,1,2,3,6,6,6,6,6}
 
             // Processing elements from right to left to store in their correct positions in Temp Array (To Stablize)
             int[] temp = new int[count];
@@ -74,9 +76,11 @@ namespace DataStructures_In_CSharp.Algos.Sorting
             {
                 temp[--countArray[GetDigit(position, arr[tempIndex], radix)]] = arr[tempIndex];
             }
+            //temp = { 3442, 2323, 3534, 2345, 4535, 3455}
+            //countArray = {0,0,0,1,2,3,6,6,6,6}
 
             //Storing the elements from temp array back to original Array.
-            for(int index=0;index<count;index++)
+            for (int index=0;index<count;index++)
             {
                 arr[index] = temp[index];
             }
