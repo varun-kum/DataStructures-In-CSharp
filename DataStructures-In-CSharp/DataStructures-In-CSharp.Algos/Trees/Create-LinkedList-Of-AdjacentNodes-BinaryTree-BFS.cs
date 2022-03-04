@@ -34,7 +34,8 @@ namespace DataStructures_In_CSharp.Algos.Trees
                 }
             }
         }
-
+        
+        // Create Linked List
         public List<LinkedList<Node<string>>> CreateLinkedList(Node<string> root)
         {
             List<LinkedList<Node<string>>> lists = new List<LinkedList<Node<string>>>();
